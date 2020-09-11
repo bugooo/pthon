@@ -9,7 +9,8 @@ urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='files.pythonhoste
 ```
 [global]
 index-url = http://pypi.douban.com/simple
-trusted-host = pypi.douban.com           disable-pip-version-check = true
+trusted-host = pypi.douban.com
+disable-pip-version-check = true
 timeout = 120
 ```
 
