@@ -9,3 +9,6 @@ class TestAnonymousSurvey(unittest.TestCase):
         my_survey.store_response('English')
         self.assertIn('English',my_survey.responses)
 unittest.main()
+
+
+#setUp() 只需创建对象一次，可以在每个测试方法中使用
